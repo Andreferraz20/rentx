@@ -3,7 +3,7 @@ import { Router } from "express";
 const categoriesRoutes = Router();
 
 const categories = [];
-
+// teste
 categoriesRoutes.post("/categories", (request, response) => {
   const { name, description } = request.body;
 
