@@ -1,5 +1,4 @@
 import { getRepository, Repository } from "typeorm";
-import { collapseTextChangeRangesAcrossMultipleVersions } from "typescript";
 
 import { ICarsImagesRepository } from "@modules/cars/repositories/CarsImagesRepository";
 
